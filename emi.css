@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:600px;
+    height:80vh;
+    margin:auto;
+    text-align: center;
+    background-color: rgb(245, 243, 239);
+}
+h2{
+    margin:20px;
+}
+.carOption{
+    width:400px;
+    height: 40px;
+    padding: 5px;
+    margin:10px;
+    font-size:15px;
+}
+.emiValue, .loanPeriod{
+    margin:20px;
+}
+.emiValue p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.loanList{
+    list-style: none;
+    margin:10px;
+    display: flex;
+}
+.loan{
+    border:1px solid;
+    width:180px;
+    height: 35px;
+    padding:5px;
+}
+
+.active{
+    background-color: #000;
+    color:#fff;
+    border:1px solid;
+    width:180px;
+    height: 35px;
+    padding:5px;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+    margin:10px;
+}
+.emiPerMonth{
+    margin:20px;
+    padding:8px;
+    border:1px solid gray;
+    width:94%;
+    height:50px;
+    box-shadow: 5px 3px 3px rgb(191, 189, 189);  
+    background-color: #fff;
+}
+.emiPerMonth p{
+    font-size:20px;
+}
